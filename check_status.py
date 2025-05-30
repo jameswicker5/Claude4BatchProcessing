@@ -2,7 +2,7 @@ import json
 from anthropic import Anthropic
 
 # Initialize the Anthropic client
-client = Anthropic(api_key="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")
+client = Anthropic(api_key="your-api-key-here")
 
 def check_all_batches_status(batch_ids):
     """Check status of all batch chunks"""
